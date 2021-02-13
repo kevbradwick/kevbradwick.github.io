@@ -1,16 +1,13 @@
 {
-  "devDependencies": {
-    "typescript": "^3.7.5"
-  },
   "name": "kevbradwick.github.io",
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
   "dependencies": {},
   "scripts": {
-    "build": "parcel build -d ./docs index.html crypto/index.html",
+    "build": "parcel build index.pug",
     "prebuild": "rm -rf docs/*",
-    "start": "parcel watch index.html crypto/index.html"
+    "start": "parcel watch index.pug"
   },
   "repository": {
     "type": "git",
@@ -23,5 +20,8 @@
     "url": "https://github.com/kevbradwick/kevbradwick.github.io/issues"
   },
   "homepage": "https://github.com/kevbradwick/kevbradwick.github.io#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "pug": "^3.0.0"
+  }
 }
