@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "build": "parcel build index.pug",
+    "build": "parcel build -d docs index.pug",
     "prebuild": "rm -rf docs/*",
     "start": "parcel watch index.pug"
   },
