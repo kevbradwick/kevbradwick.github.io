@@ -1,0 +1,24 @@
+extends ../templates/base.pug
+
+block content
+  main.container
+    .text-center.py-5
+      h2 Conversion line and base line cross strategy
+    .row.g-3
+      .col-md-5.col-lg-4.order-md-last
+        h3 Result 
+
+      .col-md-7.col-lg-8
+        h3.mb-3 Screener
+        form.needs-validation
+        .row.g-3
+          .col.sm-6
+            label(for="asset", class="form-label") Asset
+            input(type="text", class="form-control", id="asset")
+          .col.sm-6
+            label(for="price", class="form-label") Current Price 
+            input(type="text", class="form-control", id="price")
+          .col 
+            .form-check 
+              input(type="checkbox", id="conversion-over-baseline")
+              label(for="conversion-over-baseline") Conversion line is over baseline
