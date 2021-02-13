@@ -5,9 +5,9 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "build": "parcel build -d docs index.pug",
+    "build": "parcel build -d docs index.pug ichimoku/*",
     "prebuild": "rm -rf docs/*",
-    "start": "parcel watch index.pug"
+    "start": "parcel **/*.pug"
   },
   "repository": {
     "type": "git",

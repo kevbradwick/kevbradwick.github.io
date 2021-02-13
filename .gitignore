@@ -13,3 +13,4 @@ tsconfig.json
 jsconfig.json
 
 .cache
+/dist
