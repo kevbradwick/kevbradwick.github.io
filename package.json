@@ -22,6 +22,6 @@
   "homepage": "https://github.com/kevbradwick/kevbradwick.github.io#readme",
   "description": "",
   "devDependencies": {
-    "pug": "^3.0.0"
+    "pug": "^3.0.1"
   }
 }
