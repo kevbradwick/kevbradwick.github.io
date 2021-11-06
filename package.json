@@ -1,10 +1,9 @@
 {
   "name": "kevbradwick.github.io",
   "version": "1.0.0",
-  "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "parcel build -d docs index.pug examples/css-grid/*",
+    "build": "parcel build --dist-dir docs index.pug examples/css-grid/*",
     "prebuild": "rm -rf docs/*",
     "start": "parcel index.pug examples/**/*.pug"
   },
@@ -21,6 +20,9 @@
   "homepage": "https://github.com/kevbradwick/kevbradwick.github.io#readme",
   "description": "",
   "devDependencies": {
+    "@parcel/transformer-pug": "^2.0.0",
+    "cssnano": "^5.0.10",
+    "postcss": "^8.3.11",
     "pug": "^3.0.2"
   }
 }

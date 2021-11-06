@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    padding: 10px;
+    border: 1px solid burlywood;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+#grid-1 {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 0 10px;
+}
