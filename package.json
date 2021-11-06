@@ -4,9 +4,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "parcel build -d docs index.pug",
+    "build": "parcel build -d docs index.pug examples/css-grid/*",
     "prebuild": "rm -rf docs/*",
-    "start": "parcel **/*.pug"
+    "start": "parcel index.pug examples/**/*.pug"
   },
   "repository": {
     "type": "git",
