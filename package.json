@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "dependencies": {},
   "scripts": {
-    "build": "parcel build -d docs index.pug ichimoku/*",
+    "build": "parcel build -d docs index.pug",
     "prebuild": "rm -rf docs/*",
     "start": "parcel **/*.pug"
   },
@@ -22,6 +21,6 @@
   "homepage": "https://github.com/kevbradwick/kevbradwick.github.io#readme",
   "description": "",
   "devDependencies": {
-    "pug": "^3.0.0"
+    "pug": "^3.0.2"
   }
 }
