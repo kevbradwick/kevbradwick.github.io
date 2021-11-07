@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+head
+  title CSS Grid Demo
+  meta(charset="utf-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+
+  //- styles to support the examples
+  style(type="text/css").
+    :root {
+      --grid-color: whitesmoke;
+      --col-border-color: burlywood;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    #grid-container {
+      background: var(--grid-color);
+      display: grid;
+      grid-template-columns: 200px auto;
+      height: 100%;
+    }
+
+    .col {
+      border: 1px dotted var(--col-border-color);
+    }
+
+body
+
+  #grid-container
+    .col
+      p Sidebar
+    .col 
+      p Main content
